@@ -1,1 +1,1 @@
-# MERN-Create-I-CodingDojo-fullstack
+# MERN-Product Manager at CodingDojo [fullstack project]
