@@ -1,0 +1,26 @@
+{
+  "name": "Create-I",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JemalAgayeva/MERN-Create-I-CodingDojo-fullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JemalAgayeva/MERN-Create-I-CodingDojo-fullstack/issues"
+  },
+  "homepage": "https://github.com/JemalAgayeva/MERN-Create-I-CodingDojo-fullstack#readme"
+}
