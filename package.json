@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JemalAgayeva/MERN-Create-I-CodingDojo-fullstack.git"
+    "url": "git+https://github.com/JemalAgayeva/MERN-ProductManager-CodingDojo-fullstack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JemalAgayeva/MERN-Create-I-CodingDojo-fullstack/issues"
+    "url": "https://github.com/JemalAgayeva/MERN-ProductManager-CodingDojo-fullstack/issues"
   },
-  "homepage": "https://github.com/JemalAgayeva/MERN-Create-I-CodingDojo-fullstack#readme"
+  "homepage": "https://github.com/JemalAgayeva/MERN-ProductManager-CodingDojo-fullstack#readme"
 }
