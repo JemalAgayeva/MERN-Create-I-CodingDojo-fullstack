@@ -1,9 +1,9 @@
-
 const mongoose = require('mongoose');
+const db_name = "product_db"
 
-mongoose.connect("mongodb://localhost/{databaseName}" , {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+mongoose.connect(`mongodb://localhost/${db_name}`, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
 })
-    .then(() =>  console.log("You're now inside the mainframe..."))
-    .catch(err => console.log("MELTDOWN! MELTDOWN! MELTDOWN!",err));
+    .then(() => console.log('Established a connection to the database'))
+    .catch(err => console.log('Something went wrong when connecting to the database ', err));
