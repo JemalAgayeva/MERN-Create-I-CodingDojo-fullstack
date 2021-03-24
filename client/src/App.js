@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {Router} from '@reach/router'
+import AllProducts from './components/AllProducts'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h4 className="text-primary font-italic mx-auto pt-3">“Your most unhappy customers are your greatest source of learning.” <br/> – Bill Gates, Microsoft </h4>
+      <hr className="col-4 mx-auto" color="black"/>
+      <Router>
+        <AllProducts path="/"> </AllProducts>
+      </Router>
     </div>
   );
 }
