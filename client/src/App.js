@@ -4,6 +4,7 @@ import {Router, Link} from '@reach/router'
 import AllProducts from './components/AllProducts'
 import OneProduct from './components/OneProduct'
 import CreateProduct from './components/CreateProduct'
+import EditProduct from './components/EditProduct'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <AllProducts path="/"> </AllProducts>
         <OneProduct path="/products/:productId"> </OneProduct>
         <CreateProduct path="/products/create/new"> </CreateProduct>
+        <EditProduct path="/products/edit/:productId"> </EditProduct>
       </Router>
     </div>
   );

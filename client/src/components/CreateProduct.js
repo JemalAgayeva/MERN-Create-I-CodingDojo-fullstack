@@ -42,9 +42,9 @@ const submitHandler = (e) =>{
 
 
     return (
-        <div className="">
+        <div>
             <h1 className="text-info mb-5">Add your New Product:</h1>
-            <form onSubmit={submitHandler} className="">
+            <form onSubmit={submitHandler}>
                 {/* <p className="text-danger">{errors.title? errors.title.message: ""}</p> */}
                 <div className="form-group col-3 mx-auto"> 
                     <p >Title: <input type="text" name="title" onChange={changeHandler} className="form-control"/></p>

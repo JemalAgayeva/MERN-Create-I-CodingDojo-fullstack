@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, {useEffect, useState} from 'react';
-import {navigate} from '@reach/router'
+import {navigate, Link} from '@reach/router'
 
 const OneProduct = (props) => {
 
@@ -35,7 +35,8 @@ const deleteProduct = (e, productId) => {
                 <p className="card-text font-weight-bolder">Price: ${oneProduct.price}</p>
                 <p className="card-text text-secondary">Description: {oneProduct.description}</p>
                 {/* <a href="#!" className="btn btn-primary">Go somewhere</a> */}
-            <button onClick={(e)=> deleteProduct(e, oneProduct._id)} className="btn btn-danger">Delete Product</button>
+            <button onClick={(e)=> deleteProduct(e, oneProduct._id)} className="btn btn-danger mr-3">Delete Product</button>
+            <button className="btn btn-success"> <Link className="text-light" to={`/products/edit/${props.productId}`}> Edit Product </Link> </button>
             </div>
         </div>
     );
